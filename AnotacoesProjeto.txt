@@ -1,0 +1,40 @@
+### Descrição do projeto ###
+
+Regras
+    ---> Apenas um disco pode ser movido por vez (feito)
+    ---> Um disco maior nunca pode ficar sobre um disco menor (feito)
+    ---> Só é possível mover o disco do topo de uma torre (feito)
+
+
+
+Classes
+    ---> Classe torre (feito)
+    ---> Classe disco (feito)
+    ---> Classe jogo Hanoi, deve ser o controle do jogo (feito)
+
+
+
+Simulação do jogo (funcionalidades)
+    
+    -=-=-=- Classe Torre -=-=-=-=-
+    ---> Verificar se o movimento é válido (feito)
+    ---> Despilhar da torre de origem (feito)
+    ---> Empilhar na torre de destino (feito)
+    ---> Detectar quando o jogo foi resolvido e indicar, neste caso, quantas
+         movimentações de discos foram realizadas. ()
+    ---> Fazer um toString() para exibir a torre (feito)
+
+
+
+    -=-=-=- Classe JogoHanoi =-=-=-=-
+     ---> O programa cria 3 pilhas (feito)
+     ---> Todos os discos devem iniciar na Torre da esquerda (feito)
+    ---> Informar a quantidade de discos (feito)
+    ---> Menu de opções (Mover disco, Mostrar Torres, Reiniciar jogo, sair) (feito)
+    ---> Caso mover (escolher a torre de origem e a torre de destino) (feito)
+
+Validação
+    --> O movimento tem que estar no intervalo de 1 a 3, com excessao na torre atual (feito)
+
+
+
